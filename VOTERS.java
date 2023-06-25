@@ -27,7 +27,6 @@ class Codechef
 		    int ip = sc.nextInt();
 		    map.put(ip, map.getOrDefault(ip, 0) + 1);
 		}
-		int count = 0;
 		ArrayList<Integer> list = new ArrayList<>();
 		for(Map.Entry<Integer, Integer> entry : map.entrySet()) {
 		    int key = entry.getKey();
